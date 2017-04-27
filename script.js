@@ -9,4 +9,8 @@ $(document).ready(function() {
   $('.blox').on('mouseenter', function() {
     $(this).addClass('highlight');
   });
+  // var consize = '400px';
+  // var bloxsize = consize/16;
+  // $('#container').css({'height': consize, 'width': consize})
+  // $('.blox').css({'height': bloxsize, 'width': bloxsize})
 });
