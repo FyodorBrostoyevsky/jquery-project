@@ -1,0 +1,11 @@
+div {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  display: inline-block;
+}
+
+.container {
+  height: 180px;
+  width: 180px;
+}
