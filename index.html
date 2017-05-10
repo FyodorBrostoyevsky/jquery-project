@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 
 <head>
-  <title>"Sketchpad Project"</title>
+  <title>"SketchUp"</title>
   <script src="jquery.min.js"></script>
   <link rel="stylesheet" href="styles.css">
   <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-  <a href="#">Clear</a>
-  <!-- <div id="container"></div> -->
+  <div class="container">
+    <table id="canvas"></table>
+  </div>
 
-  <table id="canvas"></table>
-  <p>Dank</p>
+  <div class="buttons">
+  <input type="text" name="Resize" value="Resize"/>
+  <button type="button">Color</button>
+  <button id='reset' type="button">Reset</button>
+  </div>
 </body>
 </html>
