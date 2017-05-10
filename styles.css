@@ -9,12 +9,19 @@
   overflow: visible;
 }
 
-#container {
-  height: 80vw;
-  width: 80vw;
-  background-color: blue;
+#canvas {
+  border-collapse: collapse;
+  margin: auto;
+  width: 400px;
+  padding: 10px;
 }
+
+
+
 
 .highlight {
   opacity: .50;
+  /* Without the height change, our highlighted cells
+  will have space between rows */
+  height: 19px;
 }
