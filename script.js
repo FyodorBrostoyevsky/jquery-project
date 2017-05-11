@@ -13,8 +13,8 @@ $(document).ready(function() {
   };
 
 
-sketchup(70);
-
+sketchup(20);
+// Need to make it so that resize button overwrites previous instance of sketchup()
   $('#resize').submit(function() {
     var size = $('form').val();
     sketchup(size);
